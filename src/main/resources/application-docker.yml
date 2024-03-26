@@ -5,7 +5,7 @@ spring:
     name: discovery-server
 eureka:
   instance:
-    hostname: ${HOST:localhost}
+    hostname: ${HOST:discovery-server}
   client:
     register-with-eureka: false
     fetch-registry: false
